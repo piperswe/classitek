@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Go environment
+        uses: actions/setup-go@v4.0.0
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      - name: Build Modrinth pack
+        run: packwiz modrinth export
+      - name: Build CurseForge pack
+        run: packwiz curseforge export
+      - name: Upload Modrinth artifact
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: modrinth
+          path: Classitek-*.mrpack
+      - name: Upload Curseforge artifact
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: curseforge
+          path: Classitek-*.zip
