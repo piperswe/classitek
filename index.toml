@@ -29,10 +29,6 @@ file = "config/computercraft-client.toml"
 hash = "8e1af48fbafb26e374fb91793cd950e32dc4008e423267f8d2006c2350bfd567"
 
 [[files]]
-file = "config/dashloader.json"
-hash = "1ec32bbcb7519614152292bbcb282c4a5c75bca3f98aca282d872a7fde95d9ae"
-
-[[files]]
 file = "config/debugify-descriptions.json"
 hash = "9a0faba9a418767c84fff81fe9ef0b1c868591b490d3a32c00b7e17cc3f28b59"
 
@@ -227,11 +223,6 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "86498eb7f9326155844799dc57c1372fc5000b86f046994162cccd2e480a96ed"
-metafile = true
-
-[[files]]
-file = "mods/dashloader.pw.toml"
-hash = "42524341897ab768fd4c7b40ac4916f9ac3016c68971de6e7d0a3c98648e855a"
 metafile = true
 
 [[files]]

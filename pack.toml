@@ -1,12 +1,12 @@
 name = "Classitek"
 author = "Piper McCorkle <contact@piperswe.me>"
-version = "1.0.0"
+version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b4ab412d130b2313ccba6e2da3aad24cece24f64228314bda2c52474bbe4f518"
+hash = "df2aa86ffad88f14b45dafd02a6fc268e0288fa2c6684632d7ee1a419a37afa9"
 
 [versions]
 minecraft = "1.19.3"
