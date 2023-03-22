@@ -337,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/pipepump.pw.toml"
-hash = "60acdd8dec145c100b40c6d34845e858d25e3831b867d20a5226416dda8c464b"
+hash = "6a2133e552cc621bb1bfd5cdea7535009f5c2a202dcabc00733ab1c893c92963"
 metafile = true
 
 [[files]]
