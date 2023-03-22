@@ -1,0 +1,13 @@
+name = "Easy Chunk Loader"
+filename = "ecl-1.19.3_1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n5eKI9nj/versions/k1x6EfkY/ecl-1.19.3_1.0.1.jar"
+hash-format = "sha1"
+hash = "60dae92a79746f1ba384d4ab2d34a5f6e7ac47ba"
+
+[update]
+[update.modrinth]
+mod-id = "n5eKI9nj"
+version = "k1x6EfkY"

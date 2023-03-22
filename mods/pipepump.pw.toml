@@ -1,0 +1,8 @@
+name = "PipePump"
+filename = ""
+side = "both"
+
+[download]
+url = "https://github.com/PTOM76/PipePump/releases/download/1.1.7/pipe_vacuum_pump-1.1.7.jar"
+hash-format = "sha1"
+hash = "451f09e2ba5ca4029ba49bbdcf282b5c339f30ae"
