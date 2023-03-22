@@ -24,10 +24,10 @@ jobs:
       - name: Upload Modrinth artifact
         uses: actions/upload-artifact@v3.1.2
         with:
-          name: modrinth
+          name: classitek-modrinth
           path: Classitek-*.mrpack
       - name: Upload Curseforge artifact
         uses: actions/upload-artifact@v3.1.2
         with:
-          name: curseforge
+          name: classitek-curseforge
           path: Classitek-*.zip
